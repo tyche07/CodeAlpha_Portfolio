@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anuradha | Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Anuradha</div>
+      <ul>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi! I'm Anuradha<br><span class="highlight">Frontend Developer</span></h1>
+          <p>To be a frontend developer is to turn ideas into interactive, beautiful websites.It’s fun to see my code come to life!</p>
+          <div class="social-icons">
+      <a href="https://github.com/tyche07" target="_blank" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+      </a>
+      <a href="www.linkedin.com/in/anuradha-kumari-778a4b287" target="_blank" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+      </a>
+    </div>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn primary">Hire me</a>
+            <a href="CV.pdf" class="btn secondary" download>Download CV</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="ghibli.jpg" alt="Your photo" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="about-section">
+      <div class="about-img">
+        <img src="ghibli.jpg" alt="Your photo" />
+      </div>
+      <div class="about-content">
+        <h2>About me</h2>
+        <p>
+          I work hard and am eager to learn more about frontend development. I have the ability to make creative designs and find solutions to user problems.<br>
+          <br>
+          I am open to work as a freelancer for projects. I can use different frontend tools like React, Figma, and more.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>My skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React, Tailwind, Bootstrap</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>UI Design</h3>
+          <p>Figma, Adobe XD, Photoshop, Illustrator</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Performance</h3>
+          <p>Responsive design, optimization, accessibility</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="works-section">
+      <h2>My works</h2>
+      <div class="works-grid">
+        <div class="work-card">
+          <img src="adoptpage.png" alt="Project 1" >
+          <h3>Adoption Page</h3>
+          <p>An adoption page.</p>
+          <a href="C:\Users\anura\OneDrive\Documents\GitHub\Coding\full stack\adoptpage.html" class="btn-small"><button class="pro">View Project</button></a>
+        </div>
+        <div class="work-card">
+          <img src="spotify clone.png" alt="Project 2" >
+          <h3>Spotify clone</h3>
+          <p>Interactive clone of spotify.</p>
+          <a href= "C:\Users\anura\OneDrive\Documents\GitHub\Coding\full stack\spotify.html" class="btn-small"><button class="pro">View Project</button></a>
+        </div>
+        <div class="work-card">
+          <img src="wanderlust.png" alt="Project 3" >
+          <h3>Wanderlust Web</h3>
+          <p>A stylish and interactive website built with JavaScript and local storage.</p>
+          <a href=C:\Users\anura\OneDrive\Documents\GitHub\Coding\MAJORPROJECT class="btn-small"><button class="pro">View Project</button></a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+      <h2>Contact me</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p><strong>✉️</strong> anuradha07082005@gmail.com</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your name" required>
+          <input type="email" placeholder="Your email" required>
+          <textarea placeholder="Type your message here..." required></textarea>
+          <button type="submit" class="btn primary">Send message</button>
+        </form>
+      </div>
+      <div id="formMessage"></div>
+    </section>
+  </main>
+
+  <footer>
+  <div class="footer-content">
+    <div class="logo">Anuradha</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p>© anuradha.page 2025</p>
+  </div>
+</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
